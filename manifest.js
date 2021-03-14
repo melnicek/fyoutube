@@ -1,0 +1,14 @@
+{
+    "name":"fyoutube",
+    "description":"noone really likes youtube",
+    "version":"4.20",
+    "manifest_version":3,
+    "content_scripts":[
+        {
+            "matches":[
+                "*://www.youtube.com/*"
+            ],
+            "js":["content.js"]
+        }
+    ]
+}
